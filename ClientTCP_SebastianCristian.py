@@ -2,7 +2,7 @@ import socket
 import sys
 import smbus
 import time
-
+#la partie du code pour le capteur BME a été trouvé dans ce site :https:http://www.beaglebone.net/code/python/beaglebone-and-bme280-humidity-sensor-python-example.php
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_address = ('10.20.41.101', 8080)
